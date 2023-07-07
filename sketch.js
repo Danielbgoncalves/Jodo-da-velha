@@ -44,7 +44,7 @@ function drawButton (btn){
 }
 
 function setup() {
-  createCanvas(3900,390);
+  createCanvas(390,390);
   
  //0 para vazio, 1 para jogada humana e 2 para a do computador
   board = [
