@@ -128,9 +128,9 @@ function draw() {
         text('En',x+35,197);
         textSize(17);
         fill(0,0,0);
-        text('Its the classic: Tic-Tac-Toe, you play first ',x,250)
-        text('a X is setted up , later, the computer',x,270)
-        text('choises a random place to put the O.',x,290)
+        text('Its the classic Tic-Tac-Toe game, you play first ',x,250)
+        text('so an X is marked, then the computer',x,270)
+        text('chooses a random space to mark the O.',x,290)
         }
 
   }
@@ -235,7 +235,7 @@ function draw() {
         text('YOU LOSE!', x,100);
         textSize(20);
         text('AGAIN',x,188); 
-        text('Tery one more time', x,150);
+        text('Try one more time', x,150);
         text('Are you enjoying ?', x,310);
         textSize(17);
         fill(25,100,200);
