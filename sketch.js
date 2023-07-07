@@ -44,7 +44,7 @@ function drawButton (btn){
 }
 
 function setup() {
-  createCanvas(390,390);
+  createCanvas(400,400);
   
  //0 para vazio, 1 para jogada humana e 2 para a do computador
   board = [
@@ -117,6 +117,7 @@ function draw() {
       text('É o jogo classico da velha, você joga primeiro',x,250)
       text('e é marcado um X, depois, o computador',x,270)
       text('escolhe uma casa vazia aleatoriamente e macra O.',x,290)
+      text('e macra O.',x,310)
       }
 
       if(language === 2){
@@ -187,6 +188,7 @@ function draw() {
     text('porque o computador estava no aleatório', x,300);
     textSize(17);
     fill(25,100,200);
+    textSize(15);
     text('A fase com IA está em desenvolvimento, aguarde', x,350)
     }
 
@@ -225,6 +227,7 @@ function draw() {
       text('O que achou do jogo?', x,310);
       textSize(17);
       fill(25,100,200);
+      textSize(15);
       text('A fase com IA está em desenvolvimento, aguarde', x,350);
       }
     
@@ -260,6 +263,7 @@ function draw() {
     text('Uma vez mais?', x,150);
     textSize(17);
     fill(25,100,200);
+    textSize(15);
     text('A fase com IA está em desenvolvimento, aguarde', x,350);
     }
 
