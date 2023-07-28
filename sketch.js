@@ -246,7 +246,7 @@ function draw() {
         text('YOU LOSE!', x,100);
         textSize(20);
         text('AGAIN',x,188); 
-        text('Tery one more time', x,150);
+        text('Try one more time', x,150);
         text('Are you enjoying ?', x,310);
         textSize(17);
         fill(25,100,200);
